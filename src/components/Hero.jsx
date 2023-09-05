@@ -62,7 +62,7 @@ const Hero = () => {
               exit={{ opacity: 0, y: 15 }}
               transition={{ delay: 0.8 }}
             >
-              <div className=" w-full mb-10  flex flex-row mt-2 items-center gap-10 justify-between">
+              <div className=" w-full mb-10  flex flex-row mt-2 items-center  lg:gap-10 justify-between">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg"
                   className="w-10 h-10"
