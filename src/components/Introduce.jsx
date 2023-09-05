@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const Introduce = () => {
   return (
     <AnimatePresence>
-      <div className="w-full grid justify-center items-center grid-cols-2">
+      <div className="w-full grid justify-center items-center grid-cols-1 lg:grid-cols-2">
         <motion.div
           className="flex flex-col items-center"
           initial={{ opacity: 0, y: 15 }}
@@ -23,6 +23,7 @@ const Introduce = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 15 }}
             transition={{ delay: 2.25 }}
+            className="pt-10 lg:pt-0"
           >
             <p className=" text-xl font-bold leading-[1.15] text-black sm:text-4xl">
               Who is <span className="mavisai">Mavis?</span>
@@ -34,7 +35,7 @@ const Introduce = () => {
             exit={{ opacity: 0, y: 15 }}
             transition={{ delay: 2.35 }}
           >
-            <p className="pr-10 text-2xl">
+            <p className="pr-10 text-lg lg:text-2xl">
               <span className="mavisai">Mavis</span> is an AI that can help you
               with GPT-3.5 artificial intelligence technology so that all your
               work can be done easily.

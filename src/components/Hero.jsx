@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
       </nav>
       <AnimatePresence>
-        <div className="h-[468px] grid grid-cols-2 mt-10 items-center">
+        <div className="h-[468px] grid grid-cols-1 lg:grid-cols-2 mt-10 items-center">
           <div className=" h-full grid grid-rows-1  items-center ">
             <motion.div
               initial={{ opacity: 0, y: 15 }}
@@ -108,7 +108,7 @@ const Hero = () => {
           </motion.div>
         </div>
 
-        <div className="">
+        <div className="pt-10 lg:pt-0">
           <motion.div
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}

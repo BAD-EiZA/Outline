@@ -10,11 +10,11 @@ const Projects = () => {
           exit={{ opacity: 0, y: 15 }}
           transition={{ delay: 2.45 }}
         >
-          <h1 className="text-3xl font-bold leading-[1.15] text-black sm:text-4xl text-center">
+          <h1 className="text-3xl font-bold leading-[1.15] text-black sm:text-4xl text-start lg:text-center">
             AI Projects
           </h1>
         </motion.div>
-        <div className=" pt-4 grid grid-cols-4 gap-10">
+        <div className=" pt-4 grid grid-cols-1 lg:grid-cols-4 gap-10">
           <motion.div
             className="card w-60 bg-base-100 shadow-xl"
             initial={{ opacity: 0, y: 15 }}

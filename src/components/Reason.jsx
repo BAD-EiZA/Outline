@@ -14,7 +14,7 @@ const Reason = () => {
             The Purpose Of Make Article Outline
           </h1>
         </motion.div>
-        <div className="grid justify-center grid-cols-3 mt-4 gap-10">
+        <div className="grid justify-center grid-cols-1 lg:grid-cols-3 mt-4 gap-10">
           <div className="flex flex-col">
             <motion.div
               initial={{ opacity: 0, y: 15 }}
