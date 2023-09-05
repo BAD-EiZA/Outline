@@ -23,13 +23,13 @@ const Hero = () => {
                   <img src="https://i.imgur.com/HbGPpYt.png" />
                 </div>
               </div>
-              <p>MavisAI</p>
+              <p className="text-primary font-extrabold">MavisAI</p>
             </div>
             <li>
-              <a>Topic?</a>
+              <a className="text-primary font-bold">Topic?</a>
             </li>
             <li>
-              <a>Coming Soon </a>
+              <a className="text-primary">Coming Soon </a>
             </li>
           </ul>
         </div>
