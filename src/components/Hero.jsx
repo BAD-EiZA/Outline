@@ -89,13 +89,7 @@ const Hero = () => {
         Create an outline for an article with the help of MavisAI
         </h2>
       </div>
-      {/* <div className="form-control w-full max-w-2xl mt-2">
-        <input
-          type="text"
-          placeholder="Input your article URL here..."
-          className="input input-bordered w-full max-w-2xl"
-        />
-      </div> */}
+      
     </header>
     // #181736
   );
