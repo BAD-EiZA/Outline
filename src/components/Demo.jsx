@@ -46,7 +46,7 @@ const Demo = () => {
               onSubmit={handleSubmit}
               className="relative flex justify-center gap-4 items-center"
             >
-              <div className="tooltip" data-tip="Input your url...  ">
+              <div className="hidden lg:tooltip lg:block"  data-tip="Input your url...  ">
                 <button className="btn btn-primary">
                   <AiOutlineLink size={25} />
                 </button>
