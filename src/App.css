@@ -90,7 +90,13 @@
 .desc {
   @apply mt-2 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
 }
-
+.mavisai {
+  margin: 0;
+  font-weight: 800;
+  background: linear-gradient(180deg, #ff85fb 74.24%, #b300ff 99.99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .url_input {
   @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 pl-10 pr-12 text-sm shadow-lg font-satoshi font-medium focus:border-black focus:outline-none focus:ring-0;
 }
